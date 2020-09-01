@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".views.Transaction">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/transaction_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:title="Login in as"
+        app:titleTextColor="@android:color/white"
+        android:background="@color/bright_blue"/>
+
+    <RelativeLayout
+        android:padding="20dp"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/employee_name"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:text="Employee name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+        <TextView
+            android:id="@+id/branch_name"
+            android:textSize="25sp"
+            android:layout_below="@+id/employee_name"
+            android:text="Branch name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/bank_name"
+            android:textSize="25sp"
+            android:layout_below="@+id/branch_name"
+            android:text="Bank name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/department_name"
+            android:textSize="25sp"
+            android:layout_below="@+id/bank_name"
+            android:text="Department name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/jobtitle_name"
+            android:textSize="25sp"
+            android:layout_below="@+id/department_name"
+            android:text="Job Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/logout_employee"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:elevation="10dp"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:layout_alignParentBottom="true"
+            android:text="Logout"
+            android:background="@drawable/btn1_background"
+
+            />
+
+
+    </RelativeLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

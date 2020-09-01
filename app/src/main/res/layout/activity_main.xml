@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_screen_background"
+    tools:context=".views.MainActivity">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="35dp"
+        app:cardCornerRadius="15dp">
+
+
+        -
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/welcome_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="20dp"
+                android:text="Welcome To Banca"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:textStyle="" />
+
+            <TextView
+                android:id="@+id/welcome_details_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/welcome_text"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="20dp"
+                android:lineHeight="25dp"
+                android:text="Serving you for the last 50 years"
+                android:textAlignment="center"
+                android:textStyle="normal" />
+
+            <Button
+                android:id="@+id/button_1"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/welcome_details_text"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/btn1_background"
+                android:drawableStart="@drawable/ic_connect"
+                android:elevation="10dp"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:text="Sign Up"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button_2"
+                android:layout_width="120dp"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/welcome_details_text"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/btn2_background"
+                android:drawableStart="@drawable/ic_login"
+                android:elevation="10dp"
+                android:padding="10dp"
+                android:text="Log in"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

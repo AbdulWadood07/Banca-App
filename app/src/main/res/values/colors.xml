@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/bright_blue</color>
+    <color name="colorPrimaryDark">@color/dark_blue</color>
+    <color name="colorAccent">@color/darkest_blue</color>
+    <color name="white">#F9FAFB</color>
+    <color name="light_blue">#A2BCE2</color>
+    <color name="dark_blue">#01139E</color>
+    <color name="bright_blue">#0023CF</color>
+    <color name="darkest_blue">#0C1067</color>
+    <color name="gray_white">#ADBAC4</color>
+    <color name="light_voilet">#8883AF</color>
+    <color name="red">#B71C1C</color>
+
+</resources>
